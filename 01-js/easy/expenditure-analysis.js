@@ -31,8 +31,8 @@ function calculateTotalSpentByCategory(transactions) {
       category: category,
        totalSpent: spend[category]
   }
-  }
     ans.push(obj);
+  }
   console.log(ans);
   return ans;
 }
